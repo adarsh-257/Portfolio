@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --op-navy: #0a0e1a;
+  --op-gold: #d4a843;
+  --op-red: #c0392b;
+  --op-cream: #f5e6c8;
+  --op-dark: #060a14;
+  --op-blue: #1a3a5c;
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--op-navy);
+  color: var(--op-cream);
+  overflow-x: hidden;
+  font-weight: 500;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--op-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--op-gold);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e6b94d;
+}
+
+/* Selection */
+::selection {
+  background: var(--op-gold);
+  color: var(--op-navy);
+}
+
+/* Glass Card Utility */
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px;
+}
+
+.glass-card-strong {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-radius: 20px;
+}
+
+/* Gold Glow */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(212, 168, 67, 0.15),
+              0 0 40px rgba(212, 168, 67, 0.05);
+}
+
+.gold-glow-strong {
+  box-shadow: 0 0 30px rgba(212, 168, 67, 0.25),
+              0 0 60px rgba(212, 168, 67, 0.1);
+}
+
+/* Text Gradient */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #d4a843, #f5e6c8, #d4a843);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Grain overlay */
+.grain-overlay::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.03;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Section padding */
+.section-padding {
+  @apply px-6 md:px-12 lg:px-24 py-20 md:py-32;
+}
+
+/* Skill chip */
+.skill-chip {
+  @apply px-3 py-1.5 rounded-full text-sm font-medium;
+  background: rgba(212, 168, 67, 0.1);
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  color: var(--op-gold);
+}
