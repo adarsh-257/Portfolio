@@ -18,7 +18,7 @@ export default function Education() {
           className="mb-12"
         >
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase font-medium mb-4">
-            // Training Arc
+            {"// Training Arc"}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="text-gradient-gold">Education</span>

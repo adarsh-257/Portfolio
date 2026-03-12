@@ -74,7 +74,7 @@ export default function Overlay() {
       >
         <div className="max-w-2xl">
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase mb-4 font-medium">
-            // MISSION
+            {"// MISSION"}
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1]">
             I craft{" "}
@@ -93,7 +93,7 @@ export default function Overlay() {
       >
         <div className="max-w-2xl text-right">
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase mb-4 font-medium">
-            // PHILOSOPHY
+            {"// PHILOSOPHY"}
           </p>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1]">
             Bridging{" "}
@@ -110,7 +110,7 @@ export default function Overlay() {
         className="sticky top-0 h-screen w-full flex flex-col items-center justify-center"
       >
         <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase mb-6 font-medium">
-          // THE GRAND LINE AWAITS
+          {"// THE GRAND LINE AWAITS"}
         </p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-[1.2]">
           Full-Stack.{" "}

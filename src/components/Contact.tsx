@@ -43,7 +43,7 @@ export default function Contact() {
           />
 
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase font-medium mb-4">
-            // Get In Touch
+            {"// Get In Touch"}
           </p>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Let&apos;s Build Something{" "}

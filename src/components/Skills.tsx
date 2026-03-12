@@ -45,7 +45,7 @@ const cardVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: { duration: 0.6, ease: "easeOut" as const },
   },
 };
 
@@ -63,7 +63,7 @@ export default function Skills() {
           className="mb-12"
         >
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase font-medium mb-4">
-            // Arsenal
+            {"// Arsenal"}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Skills & <span className="text-gradient-gold">Technologies</span>

@@ -18,7 +18,7 @@ export default function About() {
         >
           <div className="flex items-center gap-4 mb-8">
             <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase font-medium">
-              // About Me
+              {"// About Me"}
             </p>
             <CharacterLogo
               src="/logos/Chopper_Logo.png"

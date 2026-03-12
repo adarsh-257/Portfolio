@@ -49,7 +49,7 @@ export default function Projects() {
           className="mb-12"
         >
           <p className="text-[#d4a843] text-sm tracking-[0.3em] uppercase font-medium mb-4">
-            // Treasure Map
+            {"// Treasure Map"}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Featured <span className="text-gradient-gold">Projects</span>
