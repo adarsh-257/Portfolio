@@ -5,28 +5,31 @@ import CharacterLogo from "./CharacterLogo";
 
 const experiences = [
   {
-    role: "Software Developer",
+    role: "Software Engineer",
     company: "Community Dreams Foundation",
     location: "Remote",
     period: "July 2025 – Present",
     logo: { src: "/logos/Robin_Logo.png", alt: "Robin" },
     bullets: [
-      "Architected distributed microservices on AWS achieving 99.99% uptime, improving scalability by 40%",
-      "Designed high-throughput data pipelines reducing processing latency by 45% and increasing throughput by 35%",
-      "Implemented monitoring, autoscaling, and caching strategies improving responsiveness by 30%",
+      "Built Spring Boot RESTful APIs to manage 10,000+ device allocations across 20 departments with role-based access controls",
+      "Refactored MySQL queries and added compound indexes, dropping average asset lookup time from 3s to under 1s",
+      "Wrote frontend forms in HTML5, CSS3, and JavaScript (ES6+) with client-side validation, stopping 45+ repeated errors weekly",
+      "Tuned Jenkins and Maven CI/CD pipelines, cutting execution time from 18 to 7 minutes",
+      "Covered 120+ integration flows with JUnit tests, cutting production incidents by 9 per quarter",
     ],
   },
   {
-    role: "Software Developer",
+    role: "Software Engineer – Payments & Backend",
     company: "Alorasoft Inc",
     location: "Dallas, TX",
-    period: "Jan 2024 – Jan 2025",
+    period: "Jan 2024 – Mar 2025",
     logo: { src: "/logos/Franky_Logo.png", alt: "Franky" },
     bullets: [
-      "Engineered backend services with Java & Spring Boot for a cloud-based learning platform with 99.9% uptime",
-      "Integrated RESTful APIs delivering 20% improvement in user workflow efficiency",
-      "Implemented real-time tracking with Kafka & WebSockets, boosting course completion rates by 15%",
-      "Optimized PostgreSQL queries cutting response times by 40%",
+      "Scaled a payment system to 10K+ monthly transactions with Stripe and Adyen — 18% better checkout success, 25% fewer failures",
+      "Enforced PCI-DSS compliance through tokenization, TLS, and fraud detection, cutting fraudulent transactions by 15%",
+      "Built a meal recommendation engine in Python (Pandas, Scikit-learn) lifting user retention by 12% and AOV by 22%",
+      "Replaced manual data work with Airflow/Docker ETL pipelines, reducing manual effort by 70%",
+      "Managed AWS backend (EC2, S3, RDS, Lambda) with CI/CD and async processing, holding 99.9% uptime",
     ],
   },
   {
@@ -36,10 +39,11 @@ const experiences = [
     period: "Aug 2022 – Jan 2024",
     logo: { src: "/logos/Brook_Logo.png", alt: "Brook" },
     bullets: [
-      "Developed recommendation engine with Python & Scikit-learn driving 12% increase in user retention",
-      "Designed automated ETL pipeline with Apache Airflow cutting manual processing by 70%",
-      "Built customer portal with React.js & Flask improving load times by 30% with CDN optimization",
-      "Deployed end-to-end on AWS (EC2, S3, RDS) with CI/CD pipelines",
+      "Built backend services in Java and Spring Boot for a cloud-based student learning platform with 99.9% uptime",
+      "Connected RESTful APIs across student dashboards, teacher portals, and assessments — 20% faster user workflows",
+      "Added real-time progress tracking using Kafka and WebSockets, climbing course completion rates by 15%",
+      "Reworked PostgreSQL queries with better indexes and schema changes, cutting response times by 40%",
+      "Set up Docker and Kubernetes deployments, trimming release cycles by 35% with zero-downtime updates",
     ],
   },
 ];

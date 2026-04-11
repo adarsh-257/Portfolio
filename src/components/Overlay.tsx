@@ -57,7 +57,7 @@ export default function Overlay() {
           <div className="mt-4 flex items-center gap-3">
             <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#d4a843]" />
             <p className="text-lg md:text-xl tracking-[0.25em] uppercase font-light text-[#d4a843]/80">
-              Software Engineer &bull; Full-Stack Developer
+              Software Engineer &bull; Java Full Stack Developer
             </p>
             <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#d4a843]" />
           </div>

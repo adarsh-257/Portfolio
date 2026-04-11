@@ -5,30 +5,17 @@ import CharacterLogo from "./CharacterLogo";
 
 const projects = [
   {
-    title: "Weather Streaming Platform",
-    subtitle: "Real-Time Data Processing",
+    title: "Client Onboarding & Billing System",
+    subtitle: "Full-Stack Automation Platform",
     logo: { src: "/logos/Ussop_Logo.png", alt: "Ussop" },
     description:
-      "Designed Java microservices to process large-scale weather data in real time, using Apache Kafka and Apache Flink for event streaming.",
+      "Built a full-stack Flask and GraphQL platform to automate client onboarding, provisioning 500+ subscription accounts and generating invoice templates across multiple business functions.",
     highlights: [
-      "Boosted performance with Redis & Ehcache caching",
-      "Optimized PostgreSQL with indexing & stored procedures",
-      "Improved data retrieval times by 50%",
+      "Integrated Apache Kafka for real-time microservice messaging, cutting handoff failures by 35 events/day",
+      "Configured AWS S3 encrypted document storage with lifecycle policies across 2,000+ client files",
+      "Deployed AWS Lambda functions for proactive error monitoring, reducing downtime by 12+ hours/month",
     ],
-    tags: ["Java", "Apache Kafka", "Flink", "Redis", "PostgreSQL"],
-  },
-  {
-    title: "Digital Content Management",
-    subtitle: "Enterprise CMS Architecture",
-    logo: { src: "/logos/Sanji_Logo.png", alt: "Sanji" },
-    description:
-      "Developed a content-driven web platform using Java Spring Boot and React to simulate enterprise CMS architecture with reusable templates.",
-    highlights: [
-      "Improved dynamic content rendering efficiency by 40%",
-      "Reduced page load time by 35% through API optimization",
-      "Deployed containerized microservices on AWS",
-    ],
-    tags: ["Spring Boot", "React", "AWS", "Docker", "Microservices"],
+    tags: ["Flask", "GraphQL", "Apache Kafka", "AWS Lambda", "S3"],
   },
 ];
 

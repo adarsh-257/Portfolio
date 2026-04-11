@@ -41,15 +41,8 @@ export default function Education() {
                 Master of Science, Computer Science
               </p>
               <p className="text-sm text-[#f5e6c8]/70 mt-2">
-                Jan 2024 – June 2025
+                Jan 2024 – May 2025 • Buffalo, NY
               </p>
-              <div className="mt-4 flex items-center gap-3">
-                <div className="glass-card px-4 py-2">
-                  <span className="text-sm text-[#d4a843] font-semibold">
-                    GPA: 3.3 / 4.0
-                  </span>
-                </div>
-              </div>
             </div>
             <CharacterLogo
               src="/logos/Chopper_Logo.png"

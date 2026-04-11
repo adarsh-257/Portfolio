@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const contactLinks = [
   {
-    label: "adarshdoli257@gmail.com",
-    href: "mailto:adarshdoli257@gmail.com",
+    label: "adarsh.doli2572@gmail.com",
+    href: "mailto:adarsh.doli2572@gmail.com",
     icon: "✉",
   },
   {
@@ -18,6 +18,11 @@ const contactLinks = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/adarsh-doli/",
     icon: "⚓",
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/adarsh-257",
+    icon: "⛵",
   },
 ];
 
@@ -85,7 +90,7 @@ export default function Contact() {
 
           {/* CTA Button */}
           <motion.a
-            href="mailto:adarshdoli257@gmail.com"
+            href="mailto:adarsh.doli2572@gmail.com"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-[#d4a843] to-[#b8922e] text-[#0a0e1a] font-bold tracking-wider text-sm uppercase gold-glow-strong hover:shadow-[0_0_50px_rgba(212,168,67,0.3)] transition-shadow duration-500"

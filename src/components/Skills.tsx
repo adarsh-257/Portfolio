@@ -5,29 +5,44 @@ import CharacterLogo from "./CharacterLogo";
 
 const skillCategories = [
   {
-    title: "Programming & Web",
+    title: "Languages",
     logo: { src: "/logos/Zoro_Logo.png", alt: "Zoro" },
-    skills: ["Java", "Python", "JavaScript", "HTML5", "CSS3", "REST APIs", "TypeScript"],
+    skills: ["Java", "JavaScript", "Go", "Python", "SQL"],
   },
   {
     title: "Frameworks & Libraries",
     logo: { src: "/logos/Sanji_Logo.png", alt: "Sanji" },
-    skills: ["Flask", "Spring Boot", "React", "Node.js", "Next.js", "TensorFlow", "PyTorch"],
+    skills: ["React", "Node.js", "GraphQL", "Flask", "Spring Boot", "FastAPI"],
+  },
+  {
+    title: "Backend & APIs",
+    logo: { src: "/logos/Franky_Logo.png", alt: "Franky" },
+    skills: ["RESTful APIs", "Apache Kafka", "Microservices Architecture"],
   },
   {
     title: "Databases",
     logo: { src: "/logos/Robin_Logo.png", alt: "Robin" },
-    skills: ["PostgreSQL", "MongoDB", "DynamoDB", "Hadoop", "Kafka", "Redis"],
+    skills: ["PostgreSQL", "MySQL", "Oracle"],
   },
   {
     title: "Cloud & DevOps",
     logo: { src: "/logos/Nami_logo.png", alt: "Nami" },
-    skills: ["AWS", "Cloudflare", "Kubernetes", "Docker", "Git", "Linux", "CI/CD"],
+    skills: ["AWS (EC2, S3, RDS, Lambda, Glue)", "Docker", "Jenkins", "GitLab CI/CD", "n8n"],
   },
   {
-    title: "AI / ML",
-    logo: { src: "/logos/Franky_Logo.png", alt: "Franky" },
-    skills: ["Computer Vision", "LangChain", "Distributed Computing", "RAG", "NLP"],
+    title: "Testing & QA",
+    logo: { src: "/logos/Chopper_Logo.png", alt: "Chopper" },
+    skills: ["JUnit", "Mockito", "Integration Testing", "Log4j"],
+  },
+  {
+    title: "Tools & Platforms",
+    logo: { src: "/logos/Ussop_Logo.png", alt: "Ussop" },
+    skills: ["Git", "Maven", "Postman", "SonarQube", "JIRA", "Confluence"],
+  },
+  {
+    title: "Methodologies",
+    logo: { src: "/logos/Brook_Logo.png", alt: "Brook" },
+    skills: ["Agile (Scrum)", "CI/CD Automation", "MVC", "Design Patterns"],
   },
 ];
 

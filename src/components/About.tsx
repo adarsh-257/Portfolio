@@ -30,21 +30,21 @@ export default function About() {
           <div className="grid md:grid-cols-[3fr_1fr] gap-12 items-start">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                Software Engineer with{" "}
+                Java Full Stack Developer with{" "}
                 <span className="text-gradient-gold">3+ years</span> of
                 experience
               </h2>
               <p className="text-[#f5e6c8]/80 text-lg leading-relaxed mb-6">
-                Specializing in full-stack development, cloud-native
-                deployments, and AI/ML integration. Proven track record of
-                building scalable RAG platforms and high-throughput
-                microservices that reduce latency and operational costs.
+                Designing and delivering scalable backend systems, RESTful
+                APIs, and cloud-native applications across fintech, edtech,
+                and nonprofit domains. Proficient in Java, Spring Boot,
+                React, and AWS.
               </p>
               <p className="text-[#f5e6c8]/70 text-base leading-relaxed">
-                I navigate complex engineering challenges with a focus on
-                reliability and performance — from architecting distributed
-                microservices to delivering polished user interfaces that
-                drive real business outcomes.
+                Proven ability to drive measurable impact — cutting query
+                latency by 67%, scaling payment systems to 10K+ monthly
+                transactions, and maintaining 99.9% uptime across production
+                environments.
               </p>
             </div>
 
@@ -64,10 +64,10 @@ export default function About() {
               </div>
               <div className="h-[1px] bg-white/5 my-4" />
               <div className="text-3xl font-bold text-gradient-gold mb-1">
-                99.9%
+                10K+
               </div>
-              <div className="text-xs text-[#f5e6c8]/40 tracking-wider uppercase">
-                System Uptime
+              <div className="text-xs text-[#f5e6c8]/70 tracking-wider uppercase">
+                Monthly Txns
               </div>
             </div>
           </div>
